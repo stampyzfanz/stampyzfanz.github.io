@@ -1,0 +1,52 @@
+h1, p, a {
+	text-align: center;
+}
+
+p, h1 {
+	color: grey;
+}
+
+.long {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+img {
+	margin-top: 20px;
+	border-radius: 10%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+
+	cursor: pointer;
+}
+
+#project-container {
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 50px;
+
+	display: grid;
+  /*grid-template-columns: repeat(auto-fit, 107px);*/
+  grid-template-columns: repeat(auto-fit, minmax(300px, 30%)) ;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  justify-content: center;
+}
+
+.project {
+	/*border: solid 1.5px lightgrey;*/
+	box-shadow: grey 0px 0px 4px 0px;
+	border-radius: 12%;
+	text-align: center;
+
+	transition: 0.6s;
+	transform: scale(1);
+}
+
+.project:hover {
+  transform: scale(1.1);
+}
+
+
+
